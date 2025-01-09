@@ -1,1 +1,1 @@
-This is just a repo for where i put my shaders im wokring on or find interesting
+This is just a repo for where i put my shaders im working on or find interesting
