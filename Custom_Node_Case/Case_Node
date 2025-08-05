@@ -1,0 +1,42 @@
+switch (floor(input))
+{
+	case 0:
+	lcd_out = output_0; 
+	break;
+
+	case 1:
+	lcd_out = output_1;
+	break;
+
+	case 2:
+	lcd_out = output_2;
+	break;
+
+	case 3:
+	lcd_out = output_3;
+	break;
+
+	case 4:
+	lcd_out = output_4;
+	break;
+
+	case 5:
+	lcd_out = output_5;
+	break;
+
+	case 6:
+	lcd_out = output_6;
+	break;
+
+	case 7:
+	lcd_out = output_7;
+	break;
+
+	case 8:
+	lcd_out = output_8;
+	break;
+
+	case 9:
+	lcd_out = output_9;
+	break;
+}
