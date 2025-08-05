@@ -1,0 +1,24 @@
+using UnityEgnine;
+using UnityEditor;
+
+public class dialCustomGUI : ShaderGUI
+{
+  Public overide void OnGUI(MaterialEditor materialEditor, MaterialProperty[] properties)
+  {
+    MaterialProperty _Minimum_Value_Property = FindProperty("_Minimum_Value". properties);
+
+    materialEditor.ShaderProperty(_Selection_Property, _SELECTION_Property.displayName);
+    
+    GUILayout.Space(20);
+
+    switch ((int)_SELCETION_Property.floatValue)
+    {
+      case 0:
+      materialEditot.ShaderProperty(_Gage_Size_Property, _Gage_Size_Propertt.displayName);
+    }
+
+    
+  }
+}
+
+this is incomplete example
